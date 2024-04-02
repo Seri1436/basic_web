@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(96, 190, 95);
+    border: 4px solid antiquewhite;
+}
+
+.Block{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(137, 191, 218);
+    margin: 5px;
+    border: 4px solid antiquewhite;
+    font-size: 30px;
+}
+
+#a{
+    position:static
+}
+
+#b{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#c{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+#d{
+    position: fixed;
+    top: 100px;
+    right: 10px;
+}
+
+#e{
+    position: sticky;
+    top: 50px;
+}
